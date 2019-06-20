@@ -1,6 +1,7 @@
 package com.example.post.repository;
 
 import com.example.post.vo.PostVO;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.List;
@@ -27,6 +28,7 @@ public class PostDAOTest {
     }
 
     @Test
+    @Ignore
     public void testLogin_실패케이스() {
         PostDAO dao = new PostDAO();
         String id = "admin";
